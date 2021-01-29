@@ -1,6 +1,6 @@
 # [Shapeshift Profile Pictures](https://github.com/Sainan/shapeshift-profile-pictures) for Better Discord
 
-**[ [Download now](https://github.com/Sainan/shapeshift-profile-pictures/releases/download/bd-1.0.0/ShapeshiftProfilePictures.theme.css) ]**
+**[[ Download now ]](https://github.com/Sainan/shapeshift-profile-pictures/releases/download/bd-1.0.0/ShapeshiftProfilePictures.theme.css)**
 
 If you're using RadialStatus (or a theme that includes RadialStatus within it), you might want to adjust the `--rs-avatar-shape` variable in the relevant css file.
 
