@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name         Shapeshift Profile Pictures
+@version      1.0.0
+@namespace    Sainan
+@author       Sainan
+@homepageURL  https://github.com/Sainan/shapeshift-profile-pictures
+@supportURL   https://github.com/Sainan/shapeshift-profile-pictures/issues
+@updateURL    https://raw.githubusercontent.com/Sainan/shapeshift-profile-pictures/senpai/browser/shapeshift-profile-pictures.user.css
+==/UserStyle== */
+:root {
+    --avatar-shape: 4px;
+                  /***************\
+                  * 50% : circle  *
+                  * 4px : rounded *
+                  * 0   : square  *
+                  \***************/
+}
+
+@-moz-document domain("twitter.com") {
+.avatar {
+    border-radius: var(--avatar-shape) !important;
+}
+}
+
+@-moz-document domain("discord.com") {
+img[class^='avatar'],
+div[class*='listAvatar'] {
+    border-radius: var(--avatar-shape) !important;
+}
+
+[class^='avatar'] foreignObject {
+    mask: none !important;
+}
+}

@@ -1,0 +1,29 @@
+/**
+ * @name Shape Shift Profile Pictures
+ * @version 1.0.0
+ * @author Sainan
+ * @website https://github.com/Sainan/shapeshift-profile-pictures
+ * @source https://raw.githubusercontent.com/Sainan/shapeshift-profile-pictures/bd-1.0.0/better-discord/ShapeshiftProfilePictures.theme.css
+*/
+
+:root {
+    --avatar-shape: 4px;
+                  /***************\
+                  * 50% : circle  *
+                  * 4px : rounded *
+                  * 0   : square  *
+                  \***************/
+}
+
+/* Code for Discord */
+
+img[class^='avatar'],
+div[class*='listAvatar']
+{
+    border-radius: var(--avatar-shape) !important;
+}
+
+[class^='avatar'] foreignObject
+{
+    mask: none !important;
+}
