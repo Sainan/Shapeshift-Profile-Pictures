@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
-@version      1.2.0
+@version      1.3.0
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/shapeshift-profile-pictures
@@ -51,6 +51,19 @@
     .js-menu-action-list .member-avatar,
     .mini-profile-member,
     div[title] > span[style^="background-image: url"]
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+}
+
+@-moz-document domain("youtube.com")
+{
+    yt-img-shadow#avatar,
+    yt-img-shadow.ytd-channel-avatar-editor,
+    #avatar-btn yt-img-shadow,
+    #author-thumbnail yt-img-shadow,
+    yt-img-shadow#author-thumbnail,
+    yt-img-shadow.ytd-guide-entry-renderer
     {
         border-radius: var(--avatar-shape) !important;
     }
