@@ -16,25 +16,32 @@
                   \***************/
 }
 
-@-moz-document domain("twitter.com") {
-.avatar {
-    border-radius: var(--avatar-shape) !important;
-}
-}
-
-@-moz-document domain("discord.com") {
-img[class^='avatar'],
-div[class*='listAvatar'] {
-    border-radius: var(--avatar-shape) !important;
+@-moz-document domain("twitter.com")
+{
+    .avatar
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
 }
 
-[class^='avatar'] foreignObject {
-    mask: none !important;
-}
+@-moz-document domain("discord.com")
+{
+    img[class^='avatar'],
+    div[class*='listAvatar']
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+
+    [class^='avatar'] foreignObject
+    {
+        mask: none !important;
+    }
 }
 
-@-moz-document domain("mail.google.com") {
-[data-hovercard-id] {
-    border-radius: var(--avatar-shape) !important;
-}
+@-moz-document domain("mail.google.com")
+{
+    [data-hovercard-id]
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
 }
