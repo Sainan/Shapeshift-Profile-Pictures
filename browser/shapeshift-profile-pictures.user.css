@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
-@version      1.1.0
+@version      1.2.0
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/shapeshift-profile-pictures
@@ -41,6 +41,16 @@
 @-moz-document domain("mail.google.com")
 {
     [data-hovercard-id]
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+}
+
+@-moz-document domain("trello.com")
+{
+    .js-menu-action-list .member-avatar,
+    .mini-profile-member,
+    div[title] > span[style^="background-image: url"]
     {
         border-radius: var(--avatar-shape) !important;
     }
