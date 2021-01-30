@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
-@version      1.3.0
+@version      1.4.0
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/shapeshift-profile-pictures
@@ -66,5 +66,31 @@
     yt-img-shadow.ytd-guide-entry-renderer
     {
         border-radius: var(--avatar-shape) !important;
+    }
+}
+
+@-moz-document domain("reddit.com")
+{
+    ._34CfAAowTqdbNDYXz5tBTW,
+    ._3-8BEp7zk8HU_Tq2SjmosX,
+    ._13ScjOmi6dGdJw0JAonQEr,
+    ._2E_zUw3OUkCKUFrIQwE894,
+    .Mh_Wl6YioFfBc9O1SQ4Jp
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+}
+
+@-moz-document domain("facebook.com")
+{
+    .spb7xbtv, .s45kfl79, .emlxlaya, .bkmhp75w,
+    svg.pzggbiyp
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+
+    svg.pzggbiyp > g
+    {
+        mask: none !important;
     }
 }
