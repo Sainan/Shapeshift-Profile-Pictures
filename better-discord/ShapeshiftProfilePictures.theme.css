@@ -17,13 +17,16 @@
 
 /* Code for Discord */
 
-img[class^='avatar'],
-div[class*='listAvatar']
+.avatar-VxgULZ,
+.avatar-1BDn8e,
+svg.avatarHint-1qgaV3,
+.iconInactive-98JN5i
 {
     border-radius: var(--avatar-shape) !important;
 }
 
-[class^='avatar'] foreignObject
+svg.mask-1l8v16 foreignObject,
+svg.avatarHint-1qgaV3 foreignObject
 {
     mask: none !important;
 }

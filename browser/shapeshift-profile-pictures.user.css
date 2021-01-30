@@ -26,15 +26,16 @@
 
 @-moz-document domain("discord.com")
 {
-    img[class^='avatar'],
-    div[class*='listAvatar'],
-    svg[class^='avatarHint']
+    .avatar-VxgULZ,
+    .avatar-1BDn8e,
+    svg.avatarHint-1qgaV3,
+    .iconInactive-98JN5i
     {
         border-radius: var(--avatar-shape) !important;
     }
 
-    [class^='avatar'] foreignObject,
-    svg[class^='avatarHint'] foreignObject
+    svg.mask-1l8v16 foreignObject,
+    svg.avatarHint-1qgaV3 foreignObject
     {
         mask: none !important;
     }
