@@ -27,12 +27,14 @@
 @-moz-document domain("discord.com")
 {
     img[class^='avatar'],
-    div[class*='listAvatar']
+    div[class*='listAvatar'],
+    svg[class^='avatarHint']
     {
         border-radius: var(--avatar-shape) !important;
     }
 
-    [class^='avatar'] foreignObject
+    [class^='avatar'] foreignObject,
+    svg[class^='avatarHint'] foreignObject
     {
         mask: none !important;
     }
