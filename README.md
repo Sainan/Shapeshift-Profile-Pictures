@@ -9,11 +9,11 @@ Both editions can easily be edited to your preference:
 
 ```CSS
 :root {
-    --avatar-shape: 4px;
-                  /***************\
-                  * 50% : circle  *
-                  * 4px : rounded *
-                  * 0   : square  *
-                  \***************/
+    --avatar-shape: 8%;
+                 /***************\
+                 * 50% : circle  *
+                 *  8% : rounded *
+                 *   0 : square  *
+                 \***************/
 }
 ```
