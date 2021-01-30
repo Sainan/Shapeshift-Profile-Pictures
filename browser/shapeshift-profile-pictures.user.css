@@ -70,7 +70,7 @@
 {
     .member-avatar,
     .mini-profile-member,
-    div[title] > span[style^="background-image: url"]
+    ._24AWINHReYjNBf
     {
         border-radius: var(--avatar-shape) !important;
     }
