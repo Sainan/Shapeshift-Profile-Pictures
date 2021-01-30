@@ -46,6 +46,16 @@
     }
 }
 
+@-moz-document domain("hangouts.google.com")
+{
+    .jr .xU,
+    .n291pb.uaxL4e .Yf,
+    .n291pb.uaxL4e .PUlnVb
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+}
+
 @-moz-document domain("trello.com")
 {
     .member-avatar,
