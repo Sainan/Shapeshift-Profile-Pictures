@@ -48,11 +48,16 @@
 
 @-moz-document domain("trello.com")
 {
-    .js-menu-action-list .member-avatar,
+    .member-avatar,
     .mini-profile-member,
     div[title] > span[style^="background-image: url"]
     {
         border-radius: var(--avatar-shape) !important;
+    }
+    
+    .board-header-facepile .member
+    {
+        margin: 0 4px 4px 0 !important;
     }
 }
 
