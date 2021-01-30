@@ -69,6 +69,15 @@
     }
 }
 
+@-moz-document domain("youtube-nocookie.com")
+{
+    .ytp-title-channel-logo,
+    .ytp-title-channel
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+}
+
 @-moz-document domain("reddit.com")
 {
     ._34CfAAowTqdbNDYXz5tBTW,
