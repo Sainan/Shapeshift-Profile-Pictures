@@ -56,6 +56,14 @@
     }
 }
 
+@-moz-document domain("contacts.google.com")
+{
+    .HfynVe
+    {
+        border-radius: var(--avatar-shape) !important;
+    }
+}
+
 @-moz-document domain("trello.com")
 {
     .member-avatar,
