@@ -1,5 +1,7 @@
 # Shapeshift Profile Pictures
 
+Change the shape of avatars to circle, rounded, square, or anything in between. You decide.
+
 - [For my browser](browser)
 - [For Better Discord](better-discord)
 
