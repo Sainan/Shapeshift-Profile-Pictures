@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
 @description  Change the shape of avatars to circle, rounded, square, or anything in between. You decide.
-@version      1.8.0
+@version      1.8.1
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/Shapeshift-Profile-Pictures
@@ -108,7 +108,8 @@
     #avatar-btn yt-img-shadow,
     #author-thumbnail yt-img-shadow,
     yt-img-shadow#author-thumbnail,
-    yt-img-shadow.ytd-guide-entry-renderer
+    yt-img-shadow.ytd-guide-entry-renderer,
+    .ytp-title-channel-logo
     {
         border-radius: var(--avatar-shape) !important;
     }
