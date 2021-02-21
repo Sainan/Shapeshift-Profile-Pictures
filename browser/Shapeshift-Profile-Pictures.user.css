@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
 @description  Change the shape of avatars to circle, rounded, square, or anything in between. You decide.
-@version      1.9.0
+@version      1.9.1
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/Shapeshift-Profile-Pictures
@@ -48,7 +48,8 @@
     .avatar-VxgULZ,
     .avatar-1BDn8e,
     svg.avatarHint-1qgaV3,
-    .iconInactive-98JN5i
+    .iconInactive-98JN5i,
+    .avatarUploaderInner-2EvNMg
     {
         border-radius: var(--avatar-shape) !important;
     }
