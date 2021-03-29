@@ -3,8 +3,8 @@
  * @description Change the shape of avatars to circle, rounded, square, or anything in between. You decide.
  * @author Sainan
  * @website https://github.com/Sainan/Shapeshift-Profile-Pictures
- * @version 1.0.2
- * @source https://raw.githubusercontent.com/Sainan/Shapeshift-Profile-Pictures/bd-1.0.2/better-discord/Shapeshift-Profile-Pictures.theme.css
+ * @version 1.0.3
+ * @source https://raw.githubusercontent.com/Sainan/Shapeshift-Profile-Pictures/bd-1.0.3/better-discord/Shapeshift-Profile-Pictures.theme.css
 */
 
 :root {
@@ -20,13 +20,16 @@
 .avatar-1BDn8e,
 svg.avatarHint-1qgaV3,
 .iconInactive-98JN5i,
-.avatarUploaderInner-2EvNMg
+.avatarUploaderInner-2EvNMg,
+.voiceAvatar-14IynY,
+.border-Jn5IOt
 {
     border-radius: var(--avatar-shape) !important;
 }
 
 svg.mask-1l8v16 foreignObject,
-svg.avatarHint-1qgaV3 foreignObject
+svg.avatarHint-1qgaV3 foreignObject,
+svg.callAvatarMask-1SLlRi foreignObject
 {
     mask: none !important;
 }
