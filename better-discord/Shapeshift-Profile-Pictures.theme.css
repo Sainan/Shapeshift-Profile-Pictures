@@ -4,7 +4,7 @@
  * @author Sainan
  * @website https://github.com/Sainan/Shapeshift-Profile-Pictures
  * @source https://github.com/Sainan/Shapeshift-Profile-Pictures
- * @version 1.0.5
+ * @version 1.0.6
 */
 
 :root {
@@ -17,6 +17,7 @@
 }
 
 [class^='avatar-'],
+[class^='voiceAvatar-'],
 svg[class^='avatarHint-'],
 [class^='iconInactive-98JN5i-'],
 [class^='avatarUploaderInner-'],
@@ -28,7 +29,7 @@ svg[class^='avatarHint-'],
 
 svg[class^='mask-'] foreignObject,
 svg[class^='avatarHint-'] foreignObject,
-svg[class^='callAvatarMask-1SLlRi'] foreignObject
+svg[class^='callAvatarMask-'] foreignObject
 {
     mask: none !important;
 }
