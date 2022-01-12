@@ -4,7 +4,7 @@
  * @author Sainan
  * @website https://github.com/Sainan/Shapeshift-Profile-Pictures
  * @source https://github.com/Sainan/Shapeshift-Profile-Pictures
- * @version 1.0.4
+ * @version 1.0.5
 */
 
 :root {
@@ -20,7 +20,7 @@
 svg[class^='avatarHint-'],
 [class^='iconInactive-98JN5i-'],
 [class^='avatarUploaderInner-'],
-[class^='voiceAvatar-'],
+[class^='avatarContainer-'],
 [class^='border-']
 {
     border-radius: var(--avatar-shape) !important;
