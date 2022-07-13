@@ -16,20 +16,20 @@
                  \***************/
 }
 
-[class^='avatar-'],
-[class^='voiceAvatar-'],
-svg[class^='avatarHint-'],
-[class^='iconInactive-98JN5i-'],
-[class^='avatarUploaderInner-'],
-[class^='avatarContainer-'],
-[class^='border-']
+[class*='avatar-'],
+[class*='voiceAvatar-'],
+svg[class*='avatarHint-'],
+[class*='iconInactive-98JN5i-'],
+[class*='avatarUploaderInner-'],
+[class*='avatarContainer-'],
+[class*='border-']
 {
     border-radius: var(--avatar-shape) !important;
 }
 
-svg[class^='mask-'] foreignObject,
-svg[class^='avatarHint-'] foreignObject,
-svg[class^='callAvatarMask-'] foreignObject
+svg[class*='mask-'] foreignObject,
+svg[class*='avatarHint-'] foreignObject,
+svg[class*='callAvatarMask-'] foreignObject
 {
     mask: none !important;
 }
