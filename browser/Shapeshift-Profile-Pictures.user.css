@@ -160,7 +160,9 @@
 
 @-moz-document domain("github.com")
 {
-    .avatar, .avatar-user
+    .avatar, .avatar-user,
+    /* Avatars on "Create a new repository" page */
+    .dCcneT
     {
         border-radius: var(--avatar-shape) !important;
     }
