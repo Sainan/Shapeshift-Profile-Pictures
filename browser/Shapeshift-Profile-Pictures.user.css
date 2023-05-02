@@ -27,17 +27,8 @@
 
 @-moz-document domain("twitter.com")
 {
-    /* Profile */
-    .r-cnkkqs,
-    /* Tweets & Suggestions */
-    .r-h3s6tt,
-    .r-h3s6tt .r-sdzlij,
-    /* "Show this thread" */
-    .r-1yvhtrz,
-    .r-1yvhtrz .r-sdzlij,
-    /* Hover card */
-    .r-7a29px,
-    .r-7a29px .r-sdzlij,
+    /* Tweets, Profiles, "Show this thread", Hover card, "Who to follow"/"You might like" */
+    [data-testid^="UserAvatar-Container-"] .r-sdzlij,
     /* "Followed by" */
     .r-z80fyv
     {
@@ -49,7 +40,6 @@
         margin-left: 4px !important;
     }
     
-    .r-cnkkqs .r-sdzlij, /* Profile */
     .r-z80fyv .r-sdzlij /* "Followed by" */
     {
         border-radius: 0 !important;
