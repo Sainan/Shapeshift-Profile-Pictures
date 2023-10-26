@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
 @description  Change the shape of avatars to circle, rounded, square, or anything in between. You decide.
-@version      1.9.10
+@version      1.9.11
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/Shapeshift-Profile-Pictures
@@ -48,20 +48,19 @@
 
 @-moz-document domain("discord.com")
 {
-    [class*='avatar-'],
-    [class*='voiceAvatar-'],
-    svg[class*='avatarHint-'],
-    [class*='iconInactive-98JN5i-'],
-    [class*='avatarUploaderInner-'],
-    [class*='avatarContainer-'],
-    [class*='border-']
+    [class*='avatar_'],
+    [class*='voiceAvatar_'],
+    svg[class*='avatarHint_'],
+    [class*='avatarUploaderInner_'],
+    [class*='avatarContainer_'],
+    [class*='border_']
     {
         border-radius: var(--avatar-shape) !important;
     }
 
-    svg[class*='mask-'] foreignObject,
-    svg[class*='avatarHint-'] foreignObject,
-    svg[class*='callAvatarMask-'] foreignObject
+    svg[class*='mask_'] foreignObject,
+    svg[class*='avatarHint_'] foreignObject,
+    svg[class*='callAvatarMask_'] foreignObject
     {
         mask: none !important;
     }
