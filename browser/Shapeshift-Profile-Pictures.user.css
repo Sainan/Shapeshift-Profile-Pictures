@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Shapeshift Profile Pictures
 @description  Change the shape of avatars to circle, rounded, square, or anything in between. You decide.
-@version      1.9.17
+@version      1.9.18
 @namespace    Sainan
 @author       Sainan
 @homepageURL  https://github.com/Sainan/Shapeshift-Profile-Pictures
@@ -125,6 +125,11 @@
     .author-thumbnail.ytcp-commentbox /* own avatar for comment reply in studio */
     {
         border-radius: var(--avatar-shape) !important;
+    }
+
+    .yt-avatar-stack-view-model__avatars div[style] /* collaboration uploaders */
+    {
+        mask-image: none !important;
     }
 }
 
